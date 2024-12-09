@@ -18,7 +18,7 @@
         <div class="main">
             @include('components.navbar')
             <main class="content">
-
+                @yield('content')
             </main>
         </div>
     </div>
